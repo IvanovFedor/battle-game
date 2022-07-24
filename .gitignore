@@ -58,3 +58,523 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+.vsconfig
+Assets/RayFire/Info.meta
+Assets/RayFire/Info/CHANGELOG.txt
+Assets/RayFire/Info/CHANGELOG.txt.meta
+Assets/RayFire/Info/Documentation.meta
+Assets/RayFire/Info/Documentation/OtherComponentsWIP.rtf
+Assets/RayFire/Info/Documentation/OtherComponentsWIP.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Activator.rtf
+Assets/RayFire/Info/Documentation/RayFire Activator.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Blade.rtf
+Assets/RayFire/Info/Documentation/RayFire Blade.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Bomb.rtf
+Assets/RayFire/Info/Documentation/RayFire Bomb.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Connectivity.rtf
+Assets/RayFire/Info/Documentation/RayFire Connectivity.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Debris.rtf
+Assets/RayFire/Info/Documentation/RayFire Debris.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Dust.rtf
+Assets/RayFire/Info/Documentation/RayFire Dust.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Man.rtf
+Assets/RayFire/Info/Documentation/RayFire Man.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Recorder.rtf
+Assets/RayFire/Info/Documentation/RayFire Recorder.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Rigid.docx
+Assets/RayFire/Info/Documentation/RayFire Rigid.docx.meta
+Assets/RayFire/Info/Documentation/RayFire RigidRoot.docx
+Assets/RayFire/Info/Documentation/RayFire RigidRoot.docx.meta
+Assets/RayFire/Info/Documentation/RayFire Shatter.docx
+Assets/RayFire/Info/Documentation/RayFire Shatter.docx.meta
+Assets/RayFire/Info/Documentation/RayFire Sound.rtf
+Assets/RayFire/Info/Documentation/RayFire Sound.rtf.meta
+Assets/RayFire/Info/Documentation/RayFire Unyielding.rtf
+Assets/RayFire/Info/Documentation/RayFire Unyielding.rtf.meta
+Assets/RayFire/Info/FAQ.txt
+Assets/RayFire/Info/FAQ.txt.meta
+Assets/RayFire/Info/HowTo.meta
+Assets/RayFire/Info/HowTo/Activation.meta
+Assets/RayFire/Info/HowTo/Activation/1. How to activate Inactive objects by collision.rtf
+Assets/RayFire/Info/HowTo/Activation/1. How to activate Inactive objects by collision.rtf.meta
+Assets/RayFire/Info/HowTo/Activation/2. How to activate Inactive objects by Activator.rtf
+Assets/RayFire/Info/HowTo/Activation/2. How to activate Inactive objects by Activator.rtf.meta
+Assets/RayFire/Info/HowTo/Activation/3. How to activate Inactive objects by Connectivity.rtf
+Assets/RayFire/Info/HowTo/Activation/3. How to activate Inactive objects by Connectivity.rtf.meta
+Assets/RayFire/Info/HowTo/Collapse.meta
+Assets/RayFire/Info/HowTo/Collapse/1. How to collapse connected structure.rtf
+Assets/RayFire/Info/HowTo/Collapse/1. How to collapse connected structure.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition.meta
+Assets/RayFire/Info/HowTo/Demolition/1. How to demolish Mesh object in runtime by collision.rtf
+Assets/RayFire/Info/HowTo/Demolition/1. How to demolish Mesh object in runtime by collision.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/2. How to demolish Connected Cluster by collision.rtf
+Assets/RayFire/Info/HowTo/Demolition/2. How to demolish Connected Cluster by collision.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/3. How to demolish Nested Cluster by collision.rtf
+Assets/RayFire/Info/HowTo/Demolition/3. How to demolish Nested Cluster by collision.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/4. How to demolish object to prefragmented reference.rtf
+Assets/RayFire/Info/HowTo/Demolition/4. How to demolish object to prefragmented reference.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/5. How to destroy demolition fragments after delay.rtf
+Assets/RayFire/Info/HowTo/Demolition/5. How to destroy demolition fragments after delay.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/6. How to demolish object after several collisions.rtf
+Assets/RayFire/Info/HowTo/Demolition/6. How to demolish object after several collisions.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/7. How to demolish Mesh object in runtime to other fragmentation types.rtf
+Assets/RayFire/Info/HowTo/Demolition/7. How to demolish Mesh object in runtime to other fragmentation types.rtf.meta
+Assets/RayFire/Info/HowTo/Demolition/8. How to initiate demolition by trigger collider.rtf
+Assets/RayFire/Info/HowTo/Demolition/8. How to initiate demolition by trigger collider.rtf.meta
+Assets/RayFire/Info/HowTo/Particles.meta
+Assets/RayFire/Info/HowTo/Particles/1. How to demolish object and create particle debris.rtf
+Assets/RayFire/Info/HowTo/Particles/1. How to demolish object and create particle debris.rtf.meta
+Assets/RayFire/Info/HowTo/Particles/2. How to demolish object and create particle dust.rtf
+Assets/RayFire/Info/HowTo/Particles/2. How to demolish object and create particle dust.rtf.meta
+Assets/RayFire/Info/HowTo/Shattering.meta
+Assets/RayFire/Info/HowTo/Shattering/1. How to shatter object to fragments in Editor.rtf
+Assets/RayFire/Info/HowTo/Shattering/1. How to shatter object to fragments in Editor.rtf.meta
+Assets/RayFire/Info/HowTo/Shattering/2. How to apply different material to fragments inner surface.rtf
+Assets/RayFire/Info/HowTo/Shattering/2. How to apply different material to fragments inner surface.rtf.meta
+Assets/RayFire/Info/HowTo/Shattering/3. How to export fragments into mesh asset and create prefab.rtf
+Assets/RayFire/Info/HowTo/Shattering/3. How to export fragments into mesh asset and create prefab.rtf.meta
+Assets/RayFire/Info/HowTo/Shattering/4. How to shatter and decompose complex meshes.rtf
+Assets/RayFire/Info/HowTo/Shattering/4. How to shatter and decompose complex meshes.rtf.meta
+Assets/RayFire/Info/HowTo/Slicing.meta
+Assets/RayFire/Info/HowTo/Slicing/1. How to slice Mesh object in runtime.rtf
+Assets/RayFire/Info/HowTo/Slicing/1. How to slice Mesh object in runtime.rtf.meta
+Assets/RayFire/Info/License.txt
+Assets/RayFire/Info/License.txt.meta
+Assets/RayFire/Info/Logo.meta
+Assets/RayFire/Info/Logo/logo_big.png
+Assets/RayFire/Info/Logo/logo_big.png.meta
+Assets/RayFire/Info/Logo/logo_small.png
+Assets/RayFire/Info/Logo/logo_small.png.meta
+Assets/RayFire/Info/README.txt
+Assets/RayFire/Info/README.txt.meta
+Assets/RayFire/Plugins.meta
+Assets/RayFire/Plugins/Android.meta
+Assets/RayFire/Plugins/Android/arm64-v8a.meta
+Assets/RayFire/Plugins/Android/arm64-v8a/libRF_CNative_andr.so
+Assets/RayFire/Plugins/Android/arm64-v8a/libRF_CNative_andr.so.meta
+Assets/RayFire/Plugins/Android/armeabi-v7a.meta
+Assets/RayFire/Plugins/Android/armeabi-v7a/libRF_CNative_andr.so
+Assets/RayFire/Plugins/Android/armeabi-v7a/libRF_CNative_andr.so.meta
+Assets/RayFire/Plugins/Android/RFLib_DotNet_2018_andr.dll
+Assets/RayFire/Plugins/Android/RFLib_DotNet_2018_andr.dll.meta
+Assets/RayFire/Plugins/Android/x86.meta
+Assets/RayFire/Plugins/Android/x86/libRF_CNative_andr.so
+Assets/RayFire/Plugins/Android/x86/libRF_CNative_andr.so.meta
+Assets/RayFire/Plugins/Ios.meta
+Assets/RayFire/Plugins/Ios/libRF_CNative_ios.a
+Assets/RayFire/Plugins/Ios/libRF_CNative_ios.a.meta
+Assets/RayFire/Plugins/Ios/RFLib_DotNet_2018_ios.dll
+Assets/RayFire/Plugins/Ios/RFLib_DotNet_2018_ios.dll.meta
+Assets/RayFire/Plugins/Linux.meta
+Assets/RayFire/Plugins/Linux/libRF_CNative_lin.so
+Assets/RayFire/Plugins/Linux/libRF_CNative_lin.so.meta
+Assets/RayFire/Plugins/Linux/RFLib_DotNet_2018_lin.dll
+Assets/RayFire/Plugins/Linux/RFLib_DotNet_2018_lin.dll.meta
+Assets/RayFire/Plugins/Mac.meta
+Assets/RayFire/Plugins/Mac/libRF_CNative.bundle
+Assets/RayFire/Plugins/Mac/libRF_CNative.bundle.meta
+Assets/RayFire/Plugins/Mac/RFLib_DotNet_2018_osx.dll
+Assets/RayFire/Plugins/Mac/RFLib_DotNet_2018_osx.dll.meta
+Assets/RayFire/Plugins/Windows.meta
+Assets/RayFire/Plugins/Windows/x86.meta
+Assets/RayFire/Plugins/Windows/x86/RFLib_CNative_2018_x86.dll
+Assets/RayFire/Plugins/Windows/x86/RFLib_CNative_2018_x86.dll.meta
+Assets/RayFire/Plugins/Windows/x86/RFLib_DotNet_2018_x86.dll
+Assets/RayFire/Plugins/Windows/x86/RFLib_DotNet_2018_x86.dll.meta
+Assets/RayFire/Plugins/Windows/x86_x64.meta
+Assets/RayFire/Plugins/Windows/x86_x64/RFLib_CNative_2018.dll
+Assets/RayFire/Plugins/Windows/x86_x64/RFLib_CNative_2018.dll.meta
+Assets/RayFire/Plugins/Windows/x86_x64/RFLib_DotNet_2018.dll
+Assets/RayFire/Plugins/Windows/x86_x64/RFLib_DotNet_2018.dll.meta
+Assets/RayFire/Scripts.meta
+Assets/RayFire/Scripts/Classes.meta
+Assets/RayFire/Scripts/Classes/Cluster.meta
+Assets/RayFire/Scripts/Classes/Cluster/RFFace.cs
+Assets/RayFire/Scripts/Classes/Cluster/RFFace.cs.meta
+Assets/RayFire/Scripts/Classes/Cluster/RFTriangle.cs
+Assets/RayFire/Scripts/Classes/Cluster/RFTriangle.cs.meta
+Assets/RayFire/Scripts/Classes/Man.meta
+Assets/RayFire/Scripts/Classes/Man/RFManDemolition.cs
+Assets/RayFire/Scripts/Classes/Man/RFManDemolition.cs.meta
+Assets/RayFire/Scripts/Classes/Man/RFMaterial.cs
+Assets/RayFire/Scripts/Classes/Man/RFMaterial.cs.meta
+Assets/RayFire/Scripts/Classes/Man/RFPooling.cs
+Assets/RayFire/Scripts/Classes/Man/RFPooling.cs.meta
+Assets/RayFire/Scripts/Classes/Man/RFStorage.cs
+Assets/RayFire/Scripts/Classes/Man/RFStorage.cs.meta
+Assets/RayFire/Scripts/Classes/RayFire.cs
+Assets/RayFire/Scripts/Classes/RayFire.cs.meta
+Assets/RayFire/Scripts/Classes/RFCluster.cs
+Assets/RayFire/Scripts/Classes/RFCluster.cs.meta
+Assets/RayFire/Scripts/Classes/RFEvent.cs
+Assets/RayFire/Scripts/Classes/RFEvent.cs.meta
+Assets/RayFire/Scripts/Classes/RFFlash.cs
+Assets/RayFire/Scripts/Classes/RFFlash.cs.meta
+Assets/RayFire/Scripts/Classes/RFMesh.cs
+Assets/RayFire/Scripts/Classes/RFMesh.cs.meta
+Assets/RayFire/Scripts/Classes/RFParticles.cs
+Assets/RayFire/Scripts/Classes/RFParticles.cs.meta
+Assets/RayFire/Scripts/Classes/RFRecord.cs
+Assets/RayFire/Scripts/Classes/RFRecord.cs.meta
+Assets/RayFire/Scripts/Classes/RFShard.cs
+Assets/RayFire/Scripts/Classes/RFShard.cs.meta
+Assets/RayFire/Scripts/Classes/RFSnapshot.cs
+Assets/RayFire/Scripts/Classes/RFSnapshot.cs.meta
+Assets/RayFire/Scripts/Classes/RFSound.cs
+Assets/RayFire/Scripts/Classes/RFSound.cs.meta
+Assets/RayFire/Scripts/Classes/RFStress.cs
+Assets/RayFire/Scripts/Classes/RFStress.cs.meta
+Assets/RayFire/Scripts/Classes/RFTypes.cs
+Assets/RayFire/Scripts/Classes/RFTypes.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFActivation.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFActivation.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFBackupCluster.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFBackupCluster.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFCollapse.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFCollapse.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFDamage.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFDamage.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFDemolitionCluster.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFDemolitionCluster.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFDemolitionMesh.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFDemolitionMesh.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFFade.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFFade.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFFragmentProperties.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFFragmentProperties.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFLimitations.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFLimitations.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFPhysic.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFPhysic.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFReferenceDemolition.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFReferenceDemolition.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFReset.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFReset.cs.meta
+Assets/RayFire/Scripts/Classes/Rigid/RFRuntimeCaching.cs
+Assets/RayFire/Scripts/Classes/Rigid/RFRuntimeCaching.cs.meta
+Assets/RayFire/Scripts/Classes/Shatter.meta
+Assets/RayFire/Scripts/Classes/Shatter/RFCustom.cs
+Assets/RayFire/Scripts/Classes/Shatter/RFCustom.cs.meta
+Assets/RayFire/Scripts/Classes/Shatter/RFFragment.cs
+Assets/RayFire/Scripts/Classes/Shatter/RFFragment.cs.meta
+Assets/RayFire/Scripts/Classes/Shatter/RFShatterAdvanced.cs
+Assets/RayFire/Scripts/Classes/Shatter/RFShatterAdvanced.cs.meta
+Assets/RayFire/Scripts/Classes/Shatter/RFSurface.cs
+Assets/RayFire/Scripts/Classes/Shatter/RFSurface.cs.meta
+Assets/RayFire/Scripts/Components.meta
+Assets/RayFire/Scripts/Components/RayfireActivator.cs
+Assets/RayFire/Scripts/Components/RayfireActivator.cs.meta
+Assets/RayFire/Scripts/Components/RayfireBlade.cs
+Assets/RayFire/Scripts/Components/RayfireBlade.cs.meta
+Assets/RayFire/Scripts/Components/RayfireBomb.cs
+Assets/RayFire/Scripts/Components/RayfireBomb.cs.meta
+Assets/RayFire/Scripts/Components/RayfireCluster.cs
+Assets/RayFire/Scripts/Components/RayfireCluster.cs.meta
+Assets/RayFire/Scripts/Components/RayfireCombine.cs
+Assets/RayFire/Scripts/Components/RayfireCombine.cs.meta
+Assets/RayFire/Scripts/Components/RayfireConnectivity.cs
+Assets/RayFire/Scripts/Components/RayfireConnectivity.cs.meta
+Assets/RayFire/Scripts/Components/RayfireDebris.cs
+Assets/RayFire/Scripts/Components/RayfireDebris.cs.meta
+Assets/RayFire/Scripts/Components/RayfireDust.cs
+Assets/RayFire/Scripts/Components/RayfireDust.cs.meta
+Assets/RayFire/Scripts/Components/RayfireGun.cs
+Assets/RayFire/Scripts/Components/RayfireGun.cs.meta
+Assets/RayFire/Scripts/Components/RayfireMan.cs
+Assets/RayFire/Scripts/Components/RayfireMan.cs.meta
+Assets/RayFire/Scripts/Components/RayfireRecorder.cs
+Assets/RayFire/Scripts/Components/RayfireRecorder.cs.meta
+Assets/RayFire/Scripts/Components/RayfireRestriction.cs
+Assets/RayFire/Scripts/Components/RayfireRestriction.cs.meta
+Assets/RayFire/Scripts/Components/RayfireRigid.cs
+Assets/RayFire/Scripts/Components/RayfireRigid.cs.meta
+Assets/RayFire/Scripts/Components/RayfireRigidRoot.cs
+Assets/RayFire/Scripts/Components/RayfireRigidRoot.cs.meta
+Assets/RayFire/Scripts/Components/RayfireShatter.cs
+Assets/RayFire/Scripts/Components/RayfireShatter.cs.meta
+Assets/RayFire/Scripts/Components/RayfireSnapshot.cs
+Assets/RayFire/Scripts/Components/RayfireSnapshot.cs.meta
+Assets/RayFire/Scripts/Components/RayfireSound.cs
+Assets/RayFire/Scripts/Components/RayfireSound.cs.meta
+Assets/RayFire/Scripts/Components/RayfireUnyielding.cs
+Assets/RayFire/Scripts/Components/RayfireUnyielding.cs.meta
+Assets/RayFire/Scripts/Components/RayfireVortex.cs
+Assets/RayFire/Scripts/Components/RayfireVortex.cs.meta
+Assets/RayFire/Scripts/Components/RayfireWind.cs
+Assets/RayFire/Scripts/Components/RayfireWind.cs.meta
+Assets/RayFire/Scripts/Editor.meta
+Assets/RayFire/Scripts/Editor/RayfireActivatorEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireActivatorEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireBladeEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireBladeEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireBombEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireBombEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireClusterEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireClusterEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireCombineEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireCombineEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireConnectivityEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireConnectivityEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireDebrisEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireDebrisEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireDustEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireDustEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayFireEditorAssembly.asmdef
+Assets/RayFire/Scripts/Editor/RayFireEditorAssembly.asmdef.meta
+Assets/RayFire/Scripts/Editor/RayfireGunEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireGunEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireManEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireManEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireRecorderEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireRecorderEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireRestrictionEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireRestrictionEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireRigidEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireRigidEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireRigidRootEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireRigidRootEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireShatterEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireShatterEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireSnapshotEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireSnapshotEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireSoundEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireSoundEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireUnyieldingEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireUnyieldingEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireVortexEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireVortexEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RayfireWindEditor.cs
+Assets/RayFire/Scripts/Editor/RayfireWindEditor.cs.meta
+Assets/RayFire/Scripts/Editor/RFMeshAsset.cs
+Assets/RayFire/Scripts/Editor/RFMeshAsset.cs.meta
+Assets/RayFire/Scripts/Editor/RFOrder.cs
+Assets/RayFire/Scripts/Editor/RFOrder.cs.meta
+Assets/RayFire/Scripts/RayFireAssembly.asmdef
+Assets/RayFire/Scripts/RayFireAssembly.asmdef.meta
+Assets/RayFire/Tutorial.meta
+Assets/RayFire/Tutorial/Fbx.meta
+Assets/RayFire/Tutorial/Fbx/bend.FBX
+Assets/RayFire/Tutorial/Fbx/bend.FBX.meta
+Assets/RayFire/Tutorial/Fbx/blocks.FBX
+Assets/RayFire/Tutorial/Fbx/blocks.FBX.meta
+Assets/RayFire/Tutorial/Fbx/box_frags.fbx
+Assets/RayFire/Tutorial/Fbx/box_frags.fbx.meta
+Assets/RayFire/Tutorial/Fbx/bricks.FBX
+Assets/RayFire/Tutorial/Fbx/bricks.FBX.meta
+Assets/RayFire/Tutorial/Fbx/column.FBX
+Assets/RayFire/Tutorial/Fbx/column.FBX.meta
+Assets/RayFire/Tutorial/Fbx/column_corner.FBX
+Assets/RayFire/Tutorial/Fbx/column_corner.FBX.meta
+Assets/RayFire/Tutorial/Fbx/column_max_frags.FBX
+Assets/RayFire/Tutorial/Fbx/column_max_frags.FBX.meta
+Assets/RayFire/Tutorial/Fbx/column_unity_frags.fbx
+Assets/RayFire/Tutorial/Fbx/column_unity_frags.fbx.meta
+Assets/RayFire/Tutorial/Fbx/column_wall.FBX
+Assets/RayFire/Tutorial/Fbx/column_wall.FBX.meta
+Assets/RayFire/Tutorial/Fbx/column_wall_frags.fbx
+Assets/RayFire/Tutorial/Fbx/column_wall_frags.fbx.meta
+Assets/RayFire/Tutorial/Fbx/columns.FBX
+Assets/RayFire/Tutorial/Fbx/columns.FBX.meta
+Assets/RayFire/Tutorial/Fbx/columns_frags.asset
+Assets/RayFire/Tutorial/Fbx/columns_frags.asset.meta
+Assets/RayFire/Tutorial/Fbx/corner_frags.asset
+Assets/RayFire/Tutorial/Fbx/corner_frags.asset.meta
+Assets/RayFire/Tutorial/Fbx/debris.FBX
+Assets/RayFire/Tutorial/Fbx/debris.FBX.meta
+Assets/RayFire/Tutorial/Fbx/decompose.FBX
+Assets/RayFire/Tutorial/Fbx/decompose.FBX.meta
+Assets/RayFire/Tutorial/Fbx/slabs.FBX
+Assets/RayFire/Tutorial/Fbx/slabs.FBX.meta
+Assets/RayFire/Tutorial/Fbx/tube.FBX
+Assets/RayFire/Tutorial/Fbx/tube.FBX.meta
+Assets/RayFire/Tutorial/Fbx/tube_pf_frags.fbx
+Assets/RayFire/Tutorial/Fbx/tube_pf_frags.fbx.meta
+Assets/RayFire/Tutorial/Material.meta
+Assets/RayFire/Tutorial/Material/concrete.mat
+Assets/RayFire/Tutorial/Material/concrete.mat.meta
+Assets/RayFire/Tutorial/Material/concrete_dark.mat
+Assets/RayFire/Tutorial/Material/concrete_dark.mat.meta
+Assets/RayFire/Tutorial/Material/concrete_exterior.mat
+Assets/RayFire/Tutorial/Material/concrete_exterior.mat.meta
+Assets/RayFire/Tutorial/Material/concrete_interior.mat
+Assets/RayFire/Tutorial/Material/concrete_interior.mat.meta
+Assets/RayFire/Tutorial/Material/Custom.physicMaterial
+Assets/RayFire/Tutorial/Material/Custom.physicMaterial.meta
+Assets/RayFire/Tutorial/Material/Default-Material.mat
+Assets/RayFire/Tutorial/Material/Default-Material.mat.meta
+Assets/RayFire/Tutorial/Material/Dust.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_1_m.mat
+Assets/RayFire/Tutorial/Material/Dust/dust_1_m.mat.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_1_t.tga
+Assets/RayFire/Tutorial/Material/Dust/dust_1_t.tga.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_2_m.mat
+Assets/RayFire/Tutorial/Material/Dust/dust_2_m.mat.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_2_t.tga
+Assets/RayFire/Tutorial/Material/Dust/dust_2_t.tga.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_3_m.mat
+Assets/RayFire/Tutorial/Material/Dust/dust_3_m.mat.meta
+Assets/RayFire/Tutorial/Material/Dust/dust_3_t.tga
+Assets/RayFire/Tutorial/Material/Dust/dust_3_t.tga.meta
+Assets/RayFire/Tutorial/Material/glass.mat
+Assets/RayFire/Tutorial/Material/glass.mat.meta
+Assets/RayFire/Tutorial/Material/ground.mat
+Assets/RayFire/Tutorial/Material/ground.mat.meta
+Assets/RayFire/Tutorial/Material/ice.mat
+Assets/RayFire/Tutorial/Material/ice.mat.meta
+Assets/RayFire/Tutorial/Material/metal.mat
+Assets/RayFire/Tutorial/Material/metal.mat.meta
+Assets/RayFire/Tutorial/Material/orange.mat
+Assets/RayFire/Tutorial/Material/orange.mat.meta
+Assets/RayFire/Tutorial/Material/slabs.mat
+Assets/RayFire/Tutorial/Material/slabs.mat.meta
+Assets/RayFire/Tutorial/Material/wood.mat
+Assets/RayFire/Tutorial/Material/wood.mat.meta
+Assets/RayFire/Tutorial/Material/wood_dark.mat
+Assets/RayFire/Tutorial/Material/wood_dark.mat.meta
+Assets/RayFire/Tutorial/Prefabs.meta
+Assets/RayFire/Tutorial/Prefabs/Box_frags_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Box_frags_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Box_nest_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Box_nest_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Box_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Box_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Chair_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Chair_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_cls_conn.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_cls_conn.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_cls_nest.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_cls_nest.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_frags.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_frags.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_rigid_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_rigid_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Column_wall_frags.prefab
+Assets/RayFire/Tutorial/Prefabs/Column_wall_frags.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Debris.prefab
+Assets/RayFire/Tutorial/Prefabs/Debris.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Rock_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Rock_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Scene_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Scene_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Table_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Table_pf.prefab.meta
+Assets/RayFire/Tutorial/Prefabs/Tube_pf.prefab
+Assets/RayFire/Tutorial/Prefabs/Tube_pf.prefab.meta
+Assets/RayFire/Tutorial/Scenes.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/1 Shatter. Types. Voronoi.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/1 Shatter. Types. Voronoi.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/10 Shatter. Types. Bricks.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/10 Shatter. Types. Bricks.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/2 Shatter. Types. Splinters.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/2 Shatter. Types. Splinters.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/3 Shatter. Types. Slabs.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/3 Shatter. Types. Slabs.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/4 Shatter. Types. Radial.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/4 Shatter. Types. Radial.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/5 Shatter. Types. Custom.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/5 Shatter. Types. Custom.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/6 Shatter. Types. Slices.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/6 Shatter. Types. Slices.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/7 Shatter. Types. Tets.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/7 Shatter. Types. Tets.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/8 Shatter. Types. Decompose.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/8 Shatter. Types. Decompose.unity.meta
+Assets/RayFire/Tutorial/Scenes/1 Shatter/9 Shatter. Clusters.unity
+Assets/RayFire/Tutorial/Scenes/1 Shatter/9 Shatter. Clusters.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/1 Rigid. Simulation Types.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/1 Rigid. Simulation Types.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/10 Rigid. Nested Cluster demolition.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/10 Rigid. Nested Cluster demolition.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/11 Rigid. Connected cluster demolition.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/11 Rigid. Connected cluster demolition.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/12 Rigid. Reference demolition.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/12 Rigid. Reference demolition.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/13 Rigid. Material.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/13 Rigid. Material.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/14 Rigid. Damage.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/14 Rigid. Damage.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/15 Rigid. Fading.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/15 Rigid. Fading.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/16 Rigid. Reset.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/16 Rigid. Reset.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/2 Rigid. Object Types.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/2 Rigid. Object Types.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/3 Rigid. Mesh Demolition Types.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/3 Rigid. Mesh Demolition Types.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/4 Rigid. Physics.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/4 Rigid. Physics.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/5 Rigid. Activation.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/5 Rigid. Activation.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/7 Rigid. Limitations.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/7 Rigid. Limitations.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/8 Rigid. Mesh Demolition. Fragments.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/8 Rigid. Mesh Demolition. Fragments.unity.meta
+Assets/RayFire/Tutorial/Scenes/2 Rigid/9 Rigid. Mesh Demolition. Runtime Caching.unity
+Assets/RayFire/Tutorial/Scenes/2 Rigid/9 Rigid. Mesh Demolition. Runtime Caching.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/1 Debris. Types.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/1 Debris. Types.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/2 Debris. Main.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/2 Debris. Main.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/3 Debris. Emission.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/3 Debris. Emission.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/4 Debris. Dynamic.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/4 Debris. Dynamic.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/5 Debris. Noise.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/5 Debris. Noise.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/6 Debris. Collision.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/6 Debris. Collision.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/7 Debris. Limitations.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/7 Debris. Limitations.unity.meta
+Assets/RayFire/Tutorial/Scenes/3 Debris/8 Debris. Rendering.unity
+Assets/RayFire/Tutorial/Scenes/3 Debris/8 Debris. Rendering.unity.meta
+Assets/RayFire/Tutorial/Scenes/4 Dust.meta
+Assets/RayFire/Tutorial/Scenes/4 Dust/1 Dust. Types.unity
+Assets/RayFire/Tutorial/Scenes/4 Dust/1 Dust. Types.unity.meta
+Assets/RayFire/Tutorial/Scenes/5 Blade.meta
+Assets/RayFire/Tutorial/Scenes/5 Blade/1 Blade. Basics.unity
+Assets/RayFire/Tutorial/Scenes/5 Blade/1 Blade. Basics.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/1 Connectivity. Basic.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/1 Connectivity. Basic.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/2 Connectivity. Activator.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/2 Connectivity. Activator.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/3 Connectivity. Gun.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/3 Connectivity. Gun.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/4 Connectivity. Collapse.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/4 Connectivity. Collapse.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/5 Connectivity. Stress.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/5 Connectivity. Stress.unity.meta
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/6 Connectivity. Event.unity
+Assets/RayFire/Tutorial/Scenes/6 Connectivity/6 Connectivity. Event.unity.meta
+Assets/RayFire/Tutorial/Scenes/7 Restriction.meta
+Assets/RayFire/Tutorial/Scenes/7 Restriction/1 Restriction. Basics.unity
+Assets/RayFire/Tutorial/Scenes/7 Restriction/1 Restriction. Basics.unity.meta
+Assets/RayFire/Tutorial/Scenes/8 Activator.meta
+Assets/RayFire/Tutorial/Scenes/8 Activator/1. Activator. Gizmo.unity
+Assets/RayFire/Tutorial/Scenes/8 Activator/1. Activator. Gizmo.unity.meta
+Assets/RayFire/Tutorial/Scenes/8 Activator/2. Activator. Activation.unity
+Assets/RayFire/Tutorial/Scenes/8 Activator/2. Activator. Activation.unity.meta
+Assets/RayFire/Tutorial/Scenes/8 Activator/3. Activator. Animation.unity
+Assets/RayFire/Tutorial/Scenes/8 Activator/3. Activator. Animation.unity.meta
+Assets/RayFire/Tutorial/Scenes/9 RigidRoot.meta
+Assets/RayFire/Tutorial/Scenes/9 RigidRoot/1 RigidRoot..unity
+Assets/RayFire/Tutorial/Scenes/9 RigidRoot/1 RigidRoot..unity.meta
+Assets/RayFire/Tutorial/Scripts.meta
+Assets/RayFire/Tutorial/Scripts/ActivationEventScript.cs
+Assets/RayFire/Tutorial/Scripts/ActivationEventScript.cs.meta
+Assets/RayFire/Tutorial/Scripts/AddRigidComponent.cs
+Assets/RayFire/Tutorial/Scripts/AddRigidComponent.cs.meta
+Assets/RayFire/Tutorial/Scripts/ApplyDamageScript.cs
+Assets/RayFire/Tutorial/Scripts/ApplyDamageScript.cs.meta
+Assets/RayFire/Tutorial/Scripts/ConnectivityEventScript.cs
+Assets/RayFire/Tutorial/Scripts/ConnectivityEventScript.cs.meta
+Assets/RayFire/Tutorial/Scripts/DemolitionEventScript.cs
+Assets/RayFire/Tutorial/Scripts/DemolitionEventScript.cs.meta
+Assets/RayFire/WhereToStart.txt
+Assets/RayFire/WhereToStart.txt.meta
