@@ -11,16 +11,18 @@ public class HammerBamCold : MonoBehaviour
     public void BamCold()
     {
         ColiderCold.SetActive(true);
-        Instantiate(SvetOfLed, transform.position, Quaternion.identity);
-        Instantiate(VolnaOfLed, transform.position, Quaternion.identity);
         StartCoroutine(BamTime());
         joistick.SetActive(false);
     }
     IEnumerator BamTime()
     {
+        SvetOfLed.SetActive(true);
+        VolnaOfLed.SetActive(true);
         yield return new WaitForSeconds(2f);
         ColiderCold.SetActive(false);
         yield return new WaitForSeconds(5f);
+        SvetOfLed.SetActive(false);
+        VolnaOfLed.SetActive(false);
         joistick.SetActive(true);
     }
 }
