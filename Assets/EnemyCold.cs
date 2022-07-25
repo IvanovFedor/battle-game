@@ -5,10 +5,12 @@ using UnityEngine;
 public class EnemyCold : MonoBehaviour
 {
     public EnemyAi enemyAiScript;
+    public GameObject CubeOfLed;
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "BamColdSone")
         {
+            Instantiate(CubeOfLed, transform.position, Quaternion.identity);
             enemyAiScript.enabled = false;
             StartCoroutine(BamCold());
         }

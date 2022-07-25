@@ -36,23 +36,18 @@ public class EnemyAi : MonoBehaviour
     }
     private void SearchWalkPoint()
     {
-        
-        float randomZ = Random.Range(-walkPointRange, walkPointRange);
-        float randomX = Random.Range(-walkPointRange, walkPointRange);
-        walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
-        var heading = walkPoint - transform.position;
-        var distance = heading.magnitude;
-        var direction = heading / distance; // This is now the normalized direction.
+            float randomZ = Random.Range(-walkPointRange, walkPointRange);
+            float randomX = Random.Range(-walkPointRange, walkPointRange);
+            walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+            var heading = walkPoint - transform.position;
+            var distance = heading.magnitude;
+            var direction = heading / distance; // This is now the normalized direction.
 
-       /// if (Physics.Raycast(walkPoint, direction, 10f, Enemy))
-        //{
+            /// if (Physics.Raycast(walkPoint, direction, 10f, Enemy))
+            //{
             if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
                 walkPointSet = true;
-       // }
-        
-
-        
-
+            // }
     }
     private void Chase()
     {

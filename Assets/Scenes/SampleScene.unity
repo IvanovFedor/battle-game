@@ -5086,7 +5086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &603548366
 Transform:
   m_ObjectHideFlags: 0
@@ -5253,7 +5253,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -12091,6 +12091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAiScript: {fileID: 2141001892}
+  CubeOfLed: {fileID: 3047209288465956548, guid: bd83a371f7fbf7041854a2e62f6c76f1, type: 3}
 --- !u!1 &1525720103491710
 GameObject:
   m_ObjectHideFlags: 0
@@ -12260,7 +12261,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!81 &81448068394949214
 AudioListener:
@@ -12430,7 +12431,7 @@ MonoBehaviour:
   joystick2: {fileID: 1501659625}
   MoveInput: {x: 0, y: 0, z: 0}
   moveVelocity: {x: 0, y: 0, z: 0}
-  speed: 5
+  speed: 17
   rb: {fileID: 0}
   ranz: 0
 --- !u!23 &136877096716343544
@@ -12859,7 +12860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &4016622060186024490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13131,7 +13132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8767470736636747818
 Transform:
   m_ObjectHideFlags: 0
@@ -13236,8 +13237,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.971808, y: 0.80583686, z: 0.3797508}
-  m_Center: {x: -0, y: 0.8525334, z: 0.000000044703487}
+  m_Size: {x: 0.971808, y: 0.6106458, z: 0.3797508}
+  m_Center: {x: -0, y: 0.950134, z: 0.000000044703487}
 --- !u!114 &8767470736638517967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13282,6 +13283,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColiderCold: {fileID: 603548365}
+  VolnaOfLed: {fileID: 604270836892278899, guid: 7f01c452d0493da4cae1206d48194f3b, type: 3}
+  SvetOfLed: {fileID: 1525397710387241098, guid: 588ada72a232fbd438c9bf9bd979eaed, type: 3}
+  joistick: {fileID: 1322923926}
 --- !u!4 &9012203588112007823
 Transform:
   m_ObjectHideFlags: 0
