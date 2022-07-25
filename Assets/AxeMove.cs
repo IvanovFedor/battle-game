@@ -7,12 +7,13 @@ public class AxeMove : MonoBehaviour
     Rigidbody rbAxe;
     public GameObject joistick;
     bool move = false;
+    public GameObject Axe;
     public GameObject AxeIdleTransform;
 
     // Start is called before the first frame update
     void Start()
     {
-        rbAxe = GetComponent<Rigidbody>();
+        rbAxe = Axe.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -26,17 +27,21 @@ public class AxeMove : MonoBehaviour
 
     public void MoveAxe()
     {
-        rbAxe.isKinematic = false;
-        move = true;
-        StartCoroutine(TimerMoveAxe());
-        joistick.SetActive(false);
+        if(Axe.activeSelf == true)
+        {
+            rbAxe.isKinematic = false;
+            move = true;
+            StartCoroutine(TimerMoveAxe());
+            joistick.SetActive(false);
+        }
+        
     }
 
     IEnumerator TimerMoveAxe()
     {
         yield return new WaitForSeconds(2.5f);
         move = false;
-        transform.position = Vector3.Lerp(transform.position, AxeIdleTransform.transform.position, 1f);
+        Axe.transform.position = Vector3.Lerp(transform.position, AxeIdleTransform.transform.position, 1f);
         joistick.SetActive(true);
         rbAxe.isKinematic = true;
         StopCoroutine(TimerMoveAxe());

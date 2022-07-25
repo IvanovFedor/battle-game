@@ -11212,7 +11212,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4016622060195352905}
+        - m_Target: {fileID: 136877096716343547}
           m_TargetAssemblyTypeName: AxeMove, Assembly-CSharp
           m_MethodName: MoveAxe
           m_Mode: 1
@@ -11933,9 +11933,9 @@ MonoBehaviour:
     connect: {fileID: 0}
   limitations:
     byCollision: 1
-    solidity: 0.1
+    solidity: 4.86
     tag: MySword
-    depth: 1
+    depth: 7
     time: 0.2
     size: 0.1
     visible: 0
@@ -11944,7 +11944,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 17
+    amount: 15
     variation: 0
     depthFade: 0.5
     contactBias: 0
@@ -12145,6 +12145,7 @@ GameObject:
   - component: {fileID: 136877096716343545}
   - component: {fileID: 136877096716343544}
   - component: {fileID: 136877096716343546}
+  - component: {fileID: 136877096716343547}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -12678,6 +12679,21 @@ MonoBehaviour:
   dustList: []
   restriction: {fileID: 0}
   sound: {fileID: 0}
+--- !u!114 &136877096716343547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773623037581028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1b25edc9541fb489914005317e105c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joistick: {fileID: 1322923926}
+  Axe: {fileID: 4016622060185938542}
+  AxeIdleTransform: {fileID: 1932550840}
 --- !u!4 &320301439726980633
 Transform:
   m_ObjectHideFlags: 0
@@ -12836,7 +12852,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4016622060186255300}
   - component: {fileID: 4016622060195352904}
-  - component: {fileID: 4016622060195352905}
   - component: {fileID: 4016622060195352906}
   m_Layer: 0
   m_Name: Axe_v1
@@ -12844,7 +12859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &4016622060186024490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13005,20 +13020,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4016622060195352905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4016622060185938542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad1b25edc9541fb489914005317e105c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joistick: {fileID: 1322923926}
-  AxeIdleTransform: {fileID: 1932550840}
 --- !u!54 &4016622060195352906
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13130,7 +13131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8767470736636747818
 Transform:
   m_ObjectHideFlags: 0
