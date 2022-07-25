@@ -126,6 +126,13 @@ public class EnemyAi : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
+        if (GetComponent<Rigidbody>().velocity.magnitude > 1)
+        {
+            GetComponent<Rigidbody>().velocity = new Vector3(Mathf.Lerp(GetComponent<Rigidbody>().velocity.x, 0, 0.1f), Mathf.Lerp(GetComponent<Rigidbody>().velocity.y, 0, 0.1f), Mathf.Lerp(GetComponent<Rigidbody>().velocity.z, 0, 0.1f));
+        }
+        if (GetComponent<Rigidbody>().angularVelocity.magnitude > 1)
+        {
+            GetComponent<Rigidbody>().angularVelocity = new Vector3(Mathf.Lerp(GetComponent<Rigidbody>().angularVelocity.x, 0, 0.1f), Mathf.Lerp(GetComponent<Rigidbody>().angularVelocity.y, 0, 0.1f), Mathf.Lerp(GetComponent<Rigidbody>().angularVelocity.z, 0, 0.1f));
+        }
     }
 }

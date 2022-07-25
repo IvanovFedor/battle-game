@@ -26,7 +26,7 @@ public class ShakeCamEnemy : MonoBehaviour
                
                CameraShake.Shake(0.5f, 0.1f);
                
-               Instantiate(WeaponEnemy, other.gameObject.transform.parent.gameObject.transform.Find("HisWeapon").transform.position, other.gameObject.transform.parent.gameObject.transform.Find("HisWeapon").rotation);
+               //Instantiate(WeaponEnemy, other.gameObject.transform.parent.gameObject.transform.Find("HisWeapon").transform.position, other.gameObject.transform.parent.gameObject.transform.Find("HisWeapon").rotation);
                
             }
             
