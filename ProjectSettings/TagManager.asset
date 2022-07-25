@@ -9,6 +9,7 @@ TagManager:
   - block
   - FxTemporaire
   - MySword
+  - BamColdSone
   layers:
   - Default
   - TransparentFX
