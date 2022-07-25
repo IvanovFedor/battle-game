@@ -5386,8 +5386,8 @@ GameObject:
   - component: {fileID: 1807469364}
   - component: {fileID: 1807469365}
   - component: {fileID: 1807469366}
-  - component: {fileID: 1807469367}
   - component: {fileID: 1807469368}
+  - component: {fileID: 1807469369}
   m_Layer: 0
   m_Name: Longsword w_ Colliders
   m_TagString: MySword
@@ -10750,26 +10750,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   touch: 0
   WeaponEnemy: {fileID: 7589877113149501876, guid: 872445acaee04af4db8b50bbafca9f51, type: 3}
---- !u!95 &1807469367
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844711405}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d29372ca9617f94458030983daac23f5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1807469368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10783,6 +10763,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   part: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 3}
+--- !u!65 &1807469369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844711405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41, y: 0.41, z: 0.03145641}
+  m_Center: {x: 0.0008729036, y: 0.17, z: -0.0037838875}
 --- !u!23 &1825090769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11441,7 +11434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773623037581028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6130328, y: -6.857, z: -20.888765}
+  m_LocalPosition: {x: -2.6130328, y: -6.857, z: -24.888765}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
