@@ -11832,7 +11832,7 @@ MonoBehaviour:
       removeCollinear: 0
       l: 0
       m: 0
-      layer: 0
+      layer: 8
       t: 0
       tag: Untagged
     runtimeCaching:
