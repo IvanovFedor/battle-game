@@ -241,8 +241,8 @@ MonoBehaviour:
       l: 0
       m: 0
       layer: 0
-      t: 1
-      tag: 
+      t: 0
+      tag: Untagged
     runtimeCaching:
       type: 0
       frames: 3
@@ -5512,8 +5512,8 @@ MonoBehaviour:
       l: 0
       m: 0
       layer: 0
-      t: 1
-      tag: 
+      t: 0
+      tag: Untagged
     runtimeCaching:
       type: 0
       frames: 3
@@ -13772,8 +13772,8 @@ MonoBehaviour:
       l: 0
       m: 0
       layer: 0
-      t: 1
-      tag: 
+      t: 0
+      tag: Untagged
     runtimeCaching:
       type: 0
       frames: 3
