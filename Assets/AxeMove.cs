@@ -10,6 +10,8 @@ public class AxeMove : MonoBehaviour
     public GameObject Axe;
     public GameObject AxeIdleTransform;
 
+    private bool CanUse = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,12 +29,13 @@ public class AxeMove : MonoBehaviour
 
     public void MoveAxe()
     {
-        if(Axe.activeSelf == true)
+        if(Axe.activeSelf == true && CanUse)
         {
             rbAxe.isKinematic = false;
+            Axe.transform.parent = null;
             move = true;
             StartCoroutine(TimerMoveAxe());
-            joistick.SetActive(false);
+            CanUse = false;
         }
         
     }
@@ -40,10 +43,11 @@ public class AxeMove : MonoBehaviour
     IEnumerator TimerMoveAxe()
     {
         yield return new WaitForSeconds(2.5f);
+        Axe.transform.SetParent(gameObject.transform);
         move = false;
         Axe.transform.position = Vector3.Lerp(transform.position, AxeIdleTransform.transform.position, 1f);
-        joistick.SetActive(true);
         rbAxe.isKinematic = true;
+        CanUse = true;
         StopCoroutine(TimerMoveAxe());
     }
 }
