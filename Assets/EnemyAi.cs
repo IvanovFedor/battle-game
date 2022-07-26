@@ -97,15 +97,24 @@ public class EnemyAi : MonoBehaviour
         enemies = GameObject.FindGameObjectsWithTag("Player");
         foreach (GameObject go in enemies)
         {
-
-            float tmp2 = Vector3.Distance(transform.position, go.transform.position);
-            if (tmp2 < temp)
+            
+            if(enemies.Length > 1)
             {
-                temp = tmp2;
-                player = go.transform;
-                killed = false;
+                float tmp2 = Vector3.Distance(transform.position, go.transform.position);
+                if (tmp2 < temp)
+                {
+                    temp = tmp2;
+                    player = go.transform;
+                    killed = false;
+
+                }
 
             }
+            else
+            {
+                player = enemies[0].transform;
+            }
+            
 
         }
         if (killed == true)
