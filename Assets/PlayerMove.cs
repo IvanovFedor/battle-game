@@ -11,6 +11,8 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     public Rigidbody rb;
     public float ranz;
+
+    private bool isMove = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +22,13 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
-        MoveInput = new Vector3(joystick.Horizontal, 0 , joystick.Vertical);
-        moveVelocity = MoveInput.normalized * speed;
-        if (joystick2.Direction != Vector2.zero &&Mathf.Abs(joystick2.Horizontal) > 0.3f || Mathf.Abs(joystick2.Vertical) > 0.3f)
-        {
-            ranz = Mathf.Atan2(joystick2.Vertical, joystick2.Horizontal) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, -ranz+90f,  0);
-        }
-
+            rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+            MoveInput = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
+            moveVelocity = MoveInput.normalized * speed;
+            if (joystick2.Direction != Vector2.zero && Mathf.Abs(joystick2.Horizontal) > 0.3f || Mathf.Abs(joystick2.Vertical) > 0.3f)
+            {
+                ranz = Mathf.Atan2(joystick2.Vertical, joystick2.Horizontal) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0, -ranz + 90f, 0);
+            }
     }
 }
