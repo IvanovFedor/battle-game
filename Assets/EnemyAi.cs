@@ -36,7 +36,7 @@ public class EnemyAi : MonoBehaviour
     IEnumerator Switchtarget()
     {
         yield return new WaitForSeconds(Random.Range(0.4f, 0.8f));
-        temp = 9999;
+        temp = sightRange;
         StartCoroutine(Switchtarget());
     }
     private void Patroling()
@@ -66,6 +66,24 @@ public class EnemyAi : MonoBehaviour
     }
     private void Chase()
     {
+        enemies = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject go in enemies)
+        {
+
+            float tmp2 = Vector3.Distance(transform.position, go.transform.position);
+            if (tmp2 < temp)
+            {
+                temp = tmp2;
+                player = go.transform;
+                killed = false;
+
+            }
+
+        }
+        if (killed == true)
+        {
+            temp = 9999;
+        }
         agent.isStopped = false;
         Vector3 distanceToWalkPoint = transform.position - player.transform.position;
         if (distanceToWalkPoint.magnitude > 2f)
@@ -75,7 +93,25 @@ public class EnemyAi : MonoBehaviour
     }
     private void Attack()
     {
-       // agent.SetDestination(transform.position);
+        // agent.SetDestination(transform.position);
+        enemies = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject go in enemies)
+        {
+
+            float tmp2 = Vector3.Distance(transform.position, go.transform.position);
+            if (tmp2 < temp)
+            {
+                temp = tmp2;
+                player = go.transform;
+                killed = false;
+
+            }
+
+        }
+        if (killed == true)
+        {
+            temp = sightRange;
+        }
         agent.isStopped = true;
 
         if (!alreadyAttacked)
@@ -94,24 +130,7 @@ public class EnemyAi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemies = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject go in enemies)
-        {
-            
-            float tmp2 = Vector3.Distance(transform.position, go.transform.position);
-            if (tmp2 < temp)
-            {
-                temp = tmp2;
-                player = go.transform;
-                killed = false;
-               
-            }
-            
-        }
-        if(killed == true)
-        {
-            temp = 9999;
-        }
+        
         PlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
         if (!PlayerInSightRange && !playerInAttackRange) Patroling();
