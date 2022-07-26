@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public Image panel;
     public TextMeshProUGUI[] texts;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         if (!GameObject.Find("Player"))
         {
+            
             panel.gameObject.SetActive(true);
             panel.color = new Color(panel.color.r, panel.color.g, panel.color.b, Mathf.Lerp(panel.color.a, 1, 1f * Time.deltaTime));
             foreach (var item in texts)

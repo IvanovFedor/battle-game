@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.AI;
 public class EnemyAi : MonoBehaviour
 {
+    private float temp = 9999;
+    private GameObject nearest = null;
     public GameObject sword;
     public bool UpDown;
     public NavMeshAgent agent;
@@ -19,10 +21,23 @@ public class EnemyAi : MonoBehaviour
     public bool PlayerInSightRange, playerInAttackRange;
     public float RotSword;
     public float RotSwordLerp;
+    public GameObject[] enemies;
+    public bool killed;
     void Awake()
     {
-        player = GameObject.Find("Player").transform;
+
+       // player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
+    }
+    private void Start()
+    {
+        StartCoroutine(Switchtarget());
+    }
+    IEnumerator Switchtarget()
+    {
+        yield return new WaitForSeconds(Random.Range(0.4f, 0.8f));
+        temp = 9999;
+        StartCoroutine(Switchtarget());
     }
     private void Patroling()
     {
@@ -79,6 +94,24 @@ public class EnemyAi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        enemies = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject go in enemies)
+        {
+            
+            float tmp2 = Vector3.Distance(transform.position, go.transform.position);
+            if (tmp2 < temp)
+            {
+                temp = tmp2;
+                player = go.transform;
+                killed = false;
+               
+            }
+            
+        }
+        if(killed == true)
+        {
+            temp = 9999;
+        }
         PlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
         if (!PlayerInSightRange && !playerInAttackRange) Patroling();
