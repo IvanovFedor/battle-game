@@ -82,7 +82,7 @@ public class EnemyAi1 : MonoBehaviour
         }
         if (killed == true)
         {
-            temp = 9999;
+            temp = sightRange;
         }
         agent.isStopped = false;
         Vector3 distanceToWalkPoint = transform.position - player.transform.position;
