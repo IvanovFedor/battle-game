@@ -570,6 +570,10 @@ PrefabInstance:
       value: CubeZakr
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fd1ed1c5f2eef4c498a2ca1c94e92b0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd1ed1c5f2eef4c498a2ca1c94e92b0d, type: 3}
       propertyPath: m_TagString
       value: CubeEnemy
       objectReference: {fileID: 0}
@@ -7508,7 +7512,7 @@ GameObject:
   - component: {fileID: 725611498}
   - component: {fileID: 725611497}
   - component: {fileID: 725611496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16094,7 +16098,7 @@ GameObject:
   - component: {fileID: 2011202697}
   - component: {fileID: 2011202696}
   - component: {fileID: 2011202695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17012,7 +17016,7 @@ MonoBehaviour:
   limitations:
     byCollision: 1
     solidity: 0.1
-    tag: Sword
+    tag: Untagged
     depth: 1
     time: 0.05
     size: 0.1
@@ -17022,7 +17026,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 2
+    amount: 16
     variation: 0
     depthFade: 0.5
     contactBias: 0
