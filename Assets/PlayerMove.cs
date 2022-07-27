@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + moveVelocity * Time.deltaTime);
             MoveInput = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
             moveVelocity = MoveInput.normalized * speed;
             if (joystick2.Direction != Vector2.zero && Mathf.Abs(joystick2.Horizontal) > 0.3f || Mathf.Abs(joystick2.Vertical) > 0.3f)
