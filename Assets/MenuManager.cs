@@ -10,12 +10,30 @@ public class MenuManager : MonoBehaviour
 
     public GameObject ShopGameObjects;
     public GameObject MainMenuGameObjects;
+    public GameObject CameraMain;
+
+    public Transform PointShop;
+    public Transform PointMainMenu;
+
+    bool menu = true;
+    bool shop = false;
 
     private void Start()
     {
         if (!PlayerPrefs.HasKey("Weapon"))
         {
             PlayerPrefs.SetInt("Weapon", 3);
+        }
+    }
+    private void Update()
+    {
+        if (shop)
+        {
+            CameraMain.transform.position = Vector3.Lerp(CameraMain.transform.position, PointShop.position, 0.1f);
+        }
+        if (menu)
+        {
+            CameraMain.transform.position = Vector3.Lerp(CameraMain.transform.position, PointMainMenu.position, 0.1f);
         }
     }
 
@@ -35,13 +53,17 @@ public class MenuManager : MonoBehaviour
     }
     public void GoShop()
     {
-        ShopGameObjects.SetActive(true);
         MainMenuGameObjects.SetActive(false);
+        ShopGameObjects.SetActive(true);
+        menu = false;
+        shop = true;
     }
     public void BackMainMenu()
     {
-        ShopGameObjects.SetActive(false);
         MainMenuGameObjects.SetActive(true);
+        ShopGameObjects.SetActive(false);
+        menu = true;
+        shop = false;
     }
 
     public void GoFirstLevelDemo(int IdLevel)
