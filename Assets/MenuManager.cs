@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class MenuManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("Weapon"))
         {
-            PlayerPrefs.SetInt("Weapon", 1);
+            PlayerPrefs.SetInt("Weapon", 3);
         }
     }
 
@@ -41,5 +42,10 @@ public class MenuManager : MonoBehaviour
     {
         ShopGameObjects.SetActive(false);
         MainMenuGameObjects.SetActive(true);
+    }
+
+    public void GoFirstLevelDemo(int IdLevel)
+    {
+        SceneManager.LoadScene(IdLevel);
     }
 }
