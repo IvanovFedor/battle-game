@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     public Rigidbody rb;
     public float ranz;
+    private int once;
 
     private bool isMove = true;
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
             rb.MovePosition(rb.position + moveVelocity * Time.deltaTime);
             MoveInput = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
             moveVelocity = MoveInput.normalized * speed;
@@ -30,5 +32,15 @@ public class PlayerMove : MonoBehaviour
                 ranz = Mathf.Atan2(joystick2.Vertical, joystick2.Horizontal) * Mathf.Rad2Deg;
                 transform.rotation = Quaternion.Euler(0, -ranz + 90f, 0);
             }
+        if (once != 1 && speed<2.5f)
+        {
+            Invoke("SpeedNormal", 1);
+            once = 1;
+        }
+    }
+    public void SpeedNormal()
+    {
+        speed = 5;
+        once = 0;
     }
 }
