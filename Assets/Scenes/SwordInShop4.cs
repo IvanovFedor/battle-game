@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class SwordInShop4 : MonoBehaviour
 {
+    
     public void OnMouseDown()
     {
-        PlayerPrefs.SetInt("Weapon", 5);
+        PlayerPrefs.SetInt("Weapon", 4);
     }
 }

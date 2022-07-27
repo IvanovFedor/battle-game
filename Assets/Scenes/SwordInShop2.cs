@@ -6,6 +6,6 @@ public class SwordInShop2 : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        PlayerPrefs.SetInt("Weapon", 3);
+        PlayerPrefs.SetInt("Weapon", 5);
     }
 }

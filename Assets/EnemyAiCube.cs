@@ -215,7 +215,7 @@ public class EnemyAiCube : MonoBehaviour
                 {
                     if (jump == true)
                     {
-                        if (Vector3.Distance(transform.position, player.transform.position) < 7)
+                        if (Vector3.Distance(transform.position, player.transform.position) <5)
                         {
                             CameraShake.Shake(0.3f, 1 / Vector3.Distance(transform.position, player.transform.position));
                             player.GetComponent<PlayerMove>().speed = player.GetComponent<PlayerMove>().speed / 5;
