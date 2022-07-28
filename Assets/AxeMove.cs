@@ -11,6 +11,7 @@ public class AxeMove : MonoBehaviour
     public GameObject AxeIdleTransform;
 
     private bool CanUse = true;
+    private bool Vosvrat = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,12 @@ public class AxeMove : MonoBehaviour
     {
         if (move)
         {
-            rbAxe.AddRelativeForce(0f, 3f, 0f);
+            rbAxe.AddRelativeForce(0f, 7f, 0f);
+        }
+        if (Vosvrat)
+        {
+            Axe.transform.position = Vector3.Lerp(Axe.transform.position, AxeIdleTransform.transform.position, 1f);
+            Axe.transform.rotation = Quaternion.Lerp(Axe.transform.rotation, AxeIdleTransform.transform.rotation, 1f);
         }
     }
 
@@ -42,12 +48,13 @@ public class AxeMove : MonoBehaviour
 
     IEnumerator TimerMoveAxe()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2f);
         Axe.transform.SetParent(gameObject.transform);
         move = false;
-        Axe.transform.position =  AxeIdleTransform.transform.position;
-        Axe.transform.rotation =  Quaternion.Euler(0, -90, -90);
-        rbAxe.isKinematic = true;
+        Vosvrat = true;
+        rbAxe.isKinematic = true;       
+        yield return new WaitForSeconds(1f);
+        Vosvrat = false;
         CanUse = true;
         StopCoroutine(TimerMoveAxe());
     }

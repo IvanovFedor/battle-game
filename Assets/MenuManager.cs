@@ -70,4 +70,14 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(IdLevel);
     }
+
+    public void DiscordServer()
+    {
+        Application.OpenURL("https://discord.gg/Hs69P9bH6w");
+    }
+
+    public void YouTubeChanel() 
+    { 
+        Application.OpenURL("https://www.youtube.com/channel/UCD4gdCcIisrzyRl_T3uQehQ/featured");
+    }
 }
