@@ -28,8 +28,8 @@ public class AxeMove : MonoBehaviour
         }
         if (Vosvrat)
         {
-            Axe.transform.position = Vector3.Lerp(Axe.transform.position, AxeIdleTransform.transform.position, 1f);
-            Axe.transform.rotation = Quaternion.Lerp(Axe.transform.rotation, AxeIdleTransform.transform.rotation, 1f);
+            Axe.transform.position = Vector3.Lerp(Axe.transform.position, AxeIdleTransform.transform.position, 0.01f);
+            Axe.transform.rotation = Quaternion.Lerp(Axe.transform.rotation, AxeIdleTransform.transform.rotation, 0.01f);
         }
     }
 
@@ -53,7 +53,7 @@ public class AxeMove : MonoBehaviour
         move = false;
         Vosvrat = true;
         rbAxe.isKinematic = true;       
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         Vosvrat = false;
         CanUse = true;
         StopCoroutine(TimerMoveAxe());
