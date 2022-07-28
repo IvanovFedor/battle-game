@@ -45,7 +45,8 @@ public class AxeMove : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         Axe.transform.SetParent(gameObject.transform);
         move = false;
-        Axe.transform.position = Vector3.Lerp(transform.position, AxeIdleTransform.transform.position, 1f);
+        Axe.transform.position =  AxeIdleTransform.transform.position;
+        Axe.transform.rotation =  Quaternion.Euler(0, -90, -90);
         rbAxe.isKinematic = true;
         CanUse = true;
         StopCoroutine(TimerMoveAxe());
