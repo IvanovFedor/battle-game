@@ -37,7 +37,7 @@ public class PlayerMove : MonoBehaviour
             Invoke("SpeedNormal", 1);
             once = 1;
         }
-    }ÿ
+    }
     public void SpeedNormal()
     {
         speed = 5;

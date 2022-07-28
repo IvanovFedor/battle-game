@@ -12,7 +12,7 @@ public class EffectColliz : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("это меч");
+       
         if (collision.gameObject.tag == "Sword")
         {
            
