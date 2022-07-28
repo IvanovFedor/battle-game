@@ -220,7 +220,7 @@ public class EnemyAiCube : MonoBehaviour
                             CameraShake.Shake(0.3f, 1 / Vector3.Distance(transform.position, player.transform.position));
                             player.GetComponent<PlayerMove>().speed = player.GetComponent<PlayerMove>().speed / 5;
                         }
-                        Instantiate(Part, new Vector3(transform.position.x, transform.position.y - 1.9f, transform.position.z), Quaternion.identity);
+                       // Instantiate(Part, new Vector3(transform.position.x, transform.position.y - 1.9f, transform.position.z), Quaternion.identity);
                         GetComponent<RayFire.RayfireRigid>().Initialize();
                         agent.enabled = false;
                         once = 1;

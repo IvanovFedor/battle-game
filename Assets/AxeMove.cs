@@ -46,7 +46,7 @@ public class AxeMove : MonoBehaviour
         Axe.transform.SetParent(gameObject.transform);
         move = false;
         Axe.transform.position =  AxeIdleTransform.transform.position;
-        Axe.transform.rotation =  Quaternion.Euler(0, -90, -90);
+        //Axe.transform.rotation =  Quaternion.Euler(0, -90, -90);
         rbAxe.isKinematic = true;
         CanUse = true;
         StopCoroutine(TimerMoveAxe());
