@@ -17,6 +17,6 @@ public class CameraMove : MonoBehaviour
     {
        
 
-        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.05f), 1, Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z -2.5f, 0.05f));
+        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.05f), 7, Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z -2.5f, 0.05f));
     }
 }

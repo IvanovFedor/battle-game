@@ -479,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Axe_v1
       objectReference: {fileID: 0}
+    - target: {fileID: 2699518877095405341, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2699518877095490231, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -704,6 +708,10 @@ PrefabInstance:
     - target: {fileID: 8833048544595317437, guid: 33138604499b07c4e8427500cde2e270, type: 3}
       propertyPath: m_Name
       value: Longsword w_ Colliders
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833048544595317437, guid: 33138604499b07c4e8427500cde2e270, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8833048544595480221, guid: 33138604499b07c4e8427500cde2e270, type: 3}
       propertyPath: m_RootOrder
