@@ -23,6 +23,8 @@ public class EnemyAi : MonoBehaviour
     public float RotSwordLerp;
     public GameObject[] enemies;
     public bool killed;
+    public bool GoToPos;
+    NavMeshPath nav_mesh_path;
     void Awake()
     {
 
@@ -32,6 +34,7 @@ public class EnemyAi : MonoBehaviour
     private void Start()
     {
         StartCoroutine(Switchtarget());
+        nav_mesh_path = new NavMeshPath();
     }
     IEnumerator Switchtarget()
     {
@@ -51,9 +54,13 @@ public class EnemyAi : MonoBehaviour
     }
     private void SearchWalkPoint()
     {
-            float randomZ = Random.Range(-walkPointRange, walkPointRange);
-            float randomX = Random.Range(-walkPointRange, walkPointRange);
-            walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        float randomZ = Random.Range(-walkPointRange, walkPointRange);
+        float randomX = Random.Range(-walkPointRange, walkPointRange);
+        walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        agent.CalculatePath(walkPoint, nav_mesh_path);
+        if (nav_mesh_path.status == NavMeshPathStatus.PathComplete)
+        {
+            GoToPos = true;
             var heading = walkPoint - transform.position;
             var distance = heading.magnitude;
             var direction = heading / distance; // This is now the normalized direction.
@@ -63,6 +70,9 @@ public class EnemyAi : MonoBehaviour
             if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
                 walkPointSet = true;
             // }
+
+        }
+        else SearchWalkPoint();
     }
     private void Chase()
     {

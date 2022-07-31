@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public Image panel;
     public TextMeshProUGUI[] texts;
-    
+    public TextMeshProUGUI[] texts2;
+    public Image panel2;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,17 @@ public class GameManager : MonoBehaviour
             panel.gameObject.SetActive(true);
             panel.color = new Color(panel.color.r, panel.color.g, panel.color.b, Mathf.Lerp(panel.color.a, 1, 1f * Time.deltaTime));
             foreach (var item in texts)
+            {
+                item.color = new Color(item.color.r, item.color.g, item.color.b, Mathf.Lerp(item.color.a, 1, 1f * Time.deltaTime));
+            }
+
+        }
+        GameObject[] massivEnemy = GameObject.FindGameObjectsWithTag("Enemy");
+        if (massivEnemy.Length == 0)
+        {
+            panel2.gameObject.SetActive(true);
+            panel2.color = new Color(panel2.color.r, panel2.color.g, panel2.color.b, Mathf.Lerp(panel2.color.a, 1, 1f * Time.deltaTime));
+            foreach (var item in texts2)
             {
                 item.color = new Color(item.color.r, item.color.g, item.color.b, Mathf.Lerp(item.color.a, 1, 1f * Time.deltaTime));
             }

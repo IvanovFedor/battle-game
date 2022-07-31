@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 7521554041652096333}
   - component: {fileID: 7521554041652096332}
   - component: {fileID: 7521554041652096331}
+  - component: {fileID: 4575995431790579922}
   m_Layer: 9
   m_Name: HisWeapon
   m_TagString: Sword
@@ -305,6 +306,18 @@ MonoBehaviour:
   colLider: {fileID: 0}
   slicePlanes: []
   coolDownState: 0
+--- !u!114 &4575995431790579922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7521554041652096330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f543372f27423b44b8933eed9d339086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7521554041843736959
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +662,7 @@ MonoBehaviour:
   RotSwordLerp: 0
   enemies: []
   killed: 0
+  GoToPos: 0
 --- !u!54 &7521554042299474638
 Rigidbody:
   m_ObjectHideFlags: 0
