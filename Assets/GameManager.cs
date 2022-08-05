@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI[] texts;
     public TextMeshProUGUI[] texts2;
     public Image panel2;
+    public bool death;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GameObject.Find("Player"))
+        if (!GameObject.Find("Player") || death)
         {
             
             panel.gameObject.SetActive(true);

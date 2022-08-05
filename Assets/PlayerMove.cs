@@ -38,6 +38,13 @@ public class PlayerMove : MonoBehaviour
             once = 1;
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "bullet")
+        {
+            other.GetComponent<bullet>().boom();
+        }
+    }
     public void SpeedNormal()
     {
         speed = 5;
