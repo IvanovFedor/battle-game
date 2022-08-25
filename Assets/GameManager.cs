@@ -40,6 +40,14 @@ public class GameManager : MonoBehaviour
             {
                 item.color = new Color(item.color.r, item.color.g, item.color.b, Mathf.Lerp(item.color.a, 1, 1f * Time.deltaTime));
             }
+            if(SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("Level"))
+            {
+                PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex <= PlayerPrefs.GetInt("Level"))
+            {
+                PlayerPrefs.GetInt("Level");
+            }
         }
     }
     private void FixedUpdate()
@@ -54,5 +62,9 @@ public class GameManager : MonoBehaviour
     public void BackMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -6326,7 +6326,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 662009266}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: NextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11566,7 +11566,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1973732306433799197, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
   m_PrefabInstance: {fileID: 9067418999724851804}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 9067418999724851805}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2df0e6e23b3bbc847b7baf3a4a1ef8fe, type: 3}
@@ -15494,6 +15494,7 @@ GameObject:
   - component: {fileID: 2232644443806764138}
   - component: {fileID: 7147776092745487705}
   - component: {fileID: 7147776092745487704}
+  - component: {fileID: 7147776092745487706}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -15587,6 +15588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpaceShip: {fileID: 2241657564807742069}
   SpaceShipTr: {fileID: 2239212839186160093}
+  TRPlayer: {fileID: 0}
 --- !u!114 &5928584668462802459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15871,6 +15873,24 @@ MonoBehaviour:
   pointSpawn2: {fileID: 1156615172}
   pointSpawn3: {fileID: 553869150}
   pointSpawn4: {fileID: 901634149}
+--- !u!114 &7147776092745487706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241657564807742069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9298ab6221cca6944aa975514f29ce6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Weapon:
+  - {fileID: 7316361951029478338}
+  - {fileID: 1604391017}
+  - {fileID: 1684226575}
+  - {fileID: 1543596511}
+  - {fileID: 9067418999724851805}
 --- !u!1001 &7316361951029478337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15936,6 +15956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33138604499b07c4e8427500cde2e270, type: 3}
+--- !u!1 &7316361951029478338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8833048544595317437, guid: 33138604499b07c4e8427500cde2e270, type: 3}
+  m_PrefabInstance: {fileID: 7316361951029478337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!222 &8359484344494448778
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17437,3 +17462,8 @@ PrefabInstance:
       objectReference: {fileID: 2239212839186160093}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
+--- !u!1 &9067418999724851805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1973732306431535815, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
+  m_PrefabInstance: {fileID: 9067418999724851804}
+  m_PrefabAsset: {fileID: 0}
