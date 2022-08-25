@@ -34,7 +34,7 @@ public class bullet : MonoBehaviour
         if (Physics.CheckSphere(transform.position, 2, WhatIsPlayer))
          {
             GameObject.Find("GameManager").GetComponent<GameManager>().death = true;
-            GameObject.Find("Player").GetComponent<RayFire.RayfireRigid>().Demolish();
+           // GameObject.Find("Player").GetComponent<RayFire.RayfireRigid>().Demolish();
         }
 
         GetComponent<Rigidbody>().AddExplosionForce(5, transform.position, 2);
