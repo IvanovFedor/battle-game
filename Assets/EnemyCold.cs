@@ -10,15 +10,19 @@ public class EnemyCold : MonoBehaviour
     {
         if (other.gameObject.tag == "BamColdSone")
         {
-            Instantiate(CubeOfLed, transform.position, Quaternion.identity);
+            CubeOfLed.SetActive(true);
             enemyAiScript.enabled = false;
+            CubeOfLed.transform.parent = null;
             StartCoroutine(BamCold());
         }
     }
 
     IEnumerator BamCold()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
+        CubeOfLed.transform.SetParent(gameObject.transform);
+        CubeOfLed.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z); 
         enemyAiScript.enabled = true;
+        CubeOfLed.SetActive(false);
     }
 }

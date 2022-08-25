@@ -8,6 +8,7 @@ public class CameraMove : MonoBehaviour
     public Transform SpaceShipTr;
 
     public Transform TRPlayer;
+    public int IntPlusKPos = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,6 @@ public class CameraMove : MonoBehaviour
     {
        
 
-        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.05f), 15f, Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z -2.5f, 0.05f));
+        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.05f), Mathf.Lerp(transform.position.y, SpaceShip.transform.position.y + IntPlusKPos, 10f), Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z -2.5f, 0.05f));
     }
 }
