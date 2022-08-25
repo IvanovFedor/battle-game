@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.47
     agentHeight: 2
-    agentSlope: 50.6
+    agentSlope: 35
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -4980,6 +4980,8 @@ GameObject:
   - component: {fileID: 370691201}
   - component: {fileID: 370691200}
   - component: {fileID: 370691199}
+  - component: {fileID: 370691203}
+  - component: {fileID: 370691202}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -5047,6 +5049,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 379
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &370691202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370691198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4a245a0544bb046a532a8dbb6524ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &370691203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370691198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ca7cfd983a79b46ae2d074241c6c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceTerrain: {fileID: 370691200}
+  convertInfo:
+    chunkCountHorizontal: 1
+    chunkCountVertical: 1
+    vertexCountHorizontal: 50
+    vertexCountVertical: 50
+    generateSkirt: 0
+    skirtGroundLevel: 0
+  generateBasemap: 0
+  attachMeshCollider: 1
 --- !u!1001 &408058760
 PrefabInstance:
   m_ObjectHideFlags: 0

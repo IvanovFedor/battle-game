@@ -4873,6 +4873,8 @@ GameObject:
   - component: {fileID: 595492803}
   - component: {fileID: 595492802}
   - component: {fileID: 595492801}
+  - component: {fileID: 595492805}
+  - component: {fileID: 595492804}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -4940,6 +4942,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 213
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &595492804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595492800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4a245a0544bb046a532a8dbb6524ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &595492805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595492800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ca7cfd983a79b46ae2d074241c6c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceTerrain: {fileID: 595492802}
+  convertInfo:
+    chunkCountHorizontal: 1
+    chunkCountVertical: 1
+    vertexCountHorizontal: 50
+    vertexCountVertical: 50
+    generateSkirt: 0
+    skirtGroundLevel: 0
+  generateBasemap: 0
+  attachMeshCollider: 1
 --- !u!1001 &606901867
 PrefabInstance:
   m_ObjectHideFlags: 0
