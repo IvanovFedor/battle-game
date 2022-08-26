@@ -15589,6 +15589,7 @@ MonoBehaviour:
   SpaceShip: {fileID: 2241657564807742069}
   SpaceShipTr: {fileID: 2239212839186160093}
   TRPlayer: {fileID: 0}
+  IntPlusKPos: 10
 --- !u!114 &5928584668462802459
 MonoBehaviour:
   m_ObjectHideFlags: 0
