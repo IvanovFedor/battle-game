@@ -6285,7 +6285,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885874098}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e4a245a0544bb046a532a8dbb6524ad, type: 3}
   m_Name: 
@@ -6297,7 +6297,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885874098}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80ca7cfd983a79b46ae2d074241c6c41, type: 3}
   m_Name: 
@@ -7651,6 +7651,7 @@ MonoBehaviour:
   SpaceShip: {fileID: 2241657564807742069}
   SpaceShipTr: {fileID: 2239212839186160093}
   TRPlayer: {fileID: 0}
+  IntPlusKPos: 10
 --- !u!114 &5928584668462802459
 MonoBehaviour:
   m_ObjectHideFlags: 0
