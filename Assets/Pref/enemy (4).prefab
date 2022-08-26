@@ -869,7 +869,7 @@ MonoBehaviour:
   initialization: 1
   simulationType: 0
   objectType: 0
-  demolitionType: 9
+  demolitionType: 1
   physics:
     materialType: 4
     material: {fileID: 0}
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     onActivation: 0
     byOffset: 0
     lifeType: 4
-    lifeTime: 0.5
+    lifeTime: 0.7
     lifeVariation: 3
     fadeType: 3
     fadeTime: 1

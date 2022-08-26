@@ -819,6 +819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7521554042299474636, guid: 43b688a5260842445a39e99a766fcbad, type: 3}
+      propertyPath: fading.lifeTime
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7521554042299474643, guid: 43b688a5260842445a39e99a766fcbad, type: 3}
       propertyPath: m_RootOrder
       value: 38

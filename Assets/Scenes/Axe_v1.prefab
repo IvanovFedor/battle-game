@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2699518877095520653}
   - component: {fileID: 2699518877095520654}
   - component: {fileID: 2699518877095520371}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,9 +169,9 @@ GameObject:
   - component: {fileID: 2699518877095490231}
   - component: {fileID: 2699518877085981755}
   - component: {fileID: 2699518877085981753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Axe_v1
-  m_TagString: Untagged
+  m_TagString: MySword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 2699518877095456767}
   - component: {fileID: 2699518877092144705}
   - component: {fileID: 2699518877093492215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}

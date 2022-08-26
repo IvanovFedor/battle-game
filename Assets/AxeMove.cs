@@ -24,7 +24,7 @@ public class AxeMove : MonoBehaviour
     {
         if (move)
         {
-            rbAxe.AddRelativeForce(0f, 7f, 0f);
+            rbAxe.AddRelativeForce(0f, 8f, 0f);
         }
         if (Vosvrat)
         {
