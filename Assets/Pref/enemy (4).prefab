@@ -869,7 +869,7 @@ MonoBehaviour:
   initialization: 1
   simulationType: 0
   objectType: 0
-  demolitionType: 1
+  demolitionType: 9
   physics:
     materialType: 4
     material: {fileID: 0}
@@ -907,8 +907,8 @@ MonoBehaviour:
     byCollision: 1
     solidity: 4.86
     tag: MySword
-    depth: 7
-    time: 0.2
+    depth: 1
+    time: 0.1
     size: 0.1
     visible: 0
     sliceByBlade: 1
@@ -916,7 +916,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 15
+    amount: 10
     variation: 0
     depthFade: 0.5
     contactBias: 0
@@ -934,8 +934,8 @@ MonoBehaviour:
       l: 0
       m: 0
       layer: 8
-      t: 0
-      tag: Untagged
+      t: 1
+      tag: block
     runtimeCaching:
       type: 0
       frames: 3
@@ -1018,10 +1018,10 @@ MonoBehaviour:
     onActivation: 0
     byOffset: 0
     lifeType: 4
-    lifeTime: 7
+    lifeTime: 0.5
     lifeVariation: 3
-    fadeType: 0
-    fadeTime: 5
+    fadeType: 3
+    fadeTime: 1
     sizeFilter: 0
     shardAmount: 5
   reset:

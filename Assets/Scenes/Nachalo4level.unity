@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 5c03f3528b536b34e898f7df7d9b2845
+  m_OcclusionCullingData: {fileID: 36300000, guid: 9ee669257916b004cb28e4de57b4c873, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -7095,7 +7095,7 @@ Terrain:
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
-  m_DrawInstanced: 0
+  m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
@@ -9146,6 +9146,7 @@ MonoBehaviour:
   SpaceShip: {fileID: 2241657564807742069}
   SpaceShipTr: {fileID: 2239212839186160093}
   TRPlayer: {fileID: 0}
+  IntPlusKPos: 10
 --- !u!114 &5928584668462802459
 MonoBehaviour:
   m_ObjectHideFlags: 0
