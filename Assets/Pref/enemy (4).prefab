@@ -907,18 +907,18 @@ MonoBehaviour:
     byCollision: 1
     solidity: 4.86
     tag: MySword
-    depth: 1
-    time: 0.1
-    size: 0.1
+    depth: 0
+    time: 0.05
+    size: 1
     visible: 0
     sliceByBlade: 1
     bound:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 10
+    amount: 6
     variation: 0
-    depthFade: 0.5
+    depthFade: 0.01
     contactBias: 0
     seed: 1
     useShatter: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     onActivation: 0
     byOffset: 0
     lifeType: 4
-    lifeTime: 0.7
+    lifeTime: 0
     lifeVariation: 3
     fadeType: 3
     fadeTime: 1
