@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI[] texts2;
     public Image panel2;
     public bool death;
+    public bool EnemiesDeath;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +32,8 @@ public class GameManager : MonoBehaviour
             }
 
         }
-        GameObject[] massivEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-        if (massivEnemy.Length == 0)
+        
+        if (EnemiesDeath)
         {
             panel2.gameObject.SetActive(true);
             panel2.color = new Color(panel2.color.r, panel2.color.g, panel2.color.b, Mathf.Lerp(panel2.color.a, 1, 1f * Time.deltaTime));
