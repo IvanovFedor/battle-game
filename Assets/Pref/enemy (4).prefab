@@ -1018,7 +1018,7 @@ MonoBehaviour:
     onActivation: 0
     byOffset: 0
     lifeType: 4
-    lifeTime: 0
+    lifeTime: 0.3
     lifeVariation: 3
     fadeType: 3
     fadeTime: 1
