@@ -11,8 +11,13 @@ public class SwordDisarm : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (transform.parent.tag == "Enemy")
-            GetComponent<RayFire.RayfireBlade>().enabled = false;
+        if (transform.parent.tag != "Enemy")
+        {
+            Destroy(GetComponent<RayFire.RayfireBlade>());
+            Destroy(GetComponent<RayFire.RayfireRigid>());
+            gameObject.layer =8;
+        }
+            
     }
     // Update is called once per frame
     void Update()
