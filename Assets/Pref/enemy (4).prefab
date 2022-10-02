@@ -937,7 +937,7 @@ MonoBehaviour:
       t: 1
       tag: block
     runtimeCaching:
-      type: 0
+      type: 2
       frames: 3
       fragments: 4
       skipFirstDemolition: 0
