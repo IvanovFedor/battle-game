@@ -11,7 +11,7 @@ public class SwordDisarm : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (transform.parent.tag != "Enemy")
+        if (transform.parent.tag != "Enemy" && transform.parent.tag != "Player")
         {
             Destroy(GetComponent<RayFire.RayfireBlade>());
             Destroy(GetComponent<RayFire.RayfireRigid>());

@@ -934,7 +934,7 @@ MonoBehaviour:
       l: 0
       m: 0
       layer: 8
-      t: 1
+      t: 0
       tag: block
     runtimeCaching:
       type: 2
