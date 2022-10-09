@@ -7097,6 +7097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7521554042299474640, guid: 43b688a5260842445a39e99a766fcbad, type: 3}
+      propertyPath: m_Height
+      value: 1.55
+      objectReference: {fileID: 0}
     - target: {fileID: 7521554042299474643, guid: 43b688a5260842445a39e99a766fcbad, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9690,6 +9694,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
   m_PrefabInstance: {fileID: 1385269619}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394036530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394036531}
+  m_Layer: 0
+  m_Name: CoinsKillController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394036531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394036530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.802187, y: 1.7711245, z: -11.055952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1398653584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15556,6 +15591,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 2699518877095520654, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
@@ -17937,6 +17976,10 @@ PrefabInstance:
     - target: {fileID: 1973732306431535815, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
       propertyPath: m_Name
       value: Mystic_hammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973732306431535815, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
+      propertyPath: m_TagString
+      value: MySword
       objectReference: {fileID: 0}
     - target: {fileID: 1973732306432030439, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
       propertyPath: m_RootOrder

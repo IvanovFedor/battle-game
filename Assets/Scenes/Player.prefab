@@ -475,6 +475,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961386635501832036}
     m_Modifications:
+    - target: {fileID: 2699518877095196505, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
+      propertyPath: m_TagString
+      value: MySword
+      objectReference: {fileID: 0}
     - target: {fileID: 2699518877095405341, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
       propertyPath: m_Name
       value: Axe_v1
@@ -482,6 +486,10 @@ PrefabInstance:
     - target: {fileID: 2699518877095405341, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699518877095411851, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
+      propertyPath: m_TagString
+      value: MySword
       objectReference: {fileID: 0}
     - target: {fileID: 2699518877095490231, guid: 6f4dc7afb1b9af646b8bd3db3f9ccc0e, type: 3}
       propertyPath: m_RootOrder
@@ -593,6 +601,10 @@ PrefabInstance:
     - target: {fileID: 6838965184521066254, guid: 4bd14cbde66893c429f00de64fc213db, type: 3}
       propertyPath: m_Name
       value: posoh
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838965184521066254, guid: 4bd14cbde66893c429f00de64fc213db, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bd14cbde66893c429f00de64fc213db, type: 3}
@@ -774,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 1973732306431535815, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
       propertyPath: m_Name
       value: Mystic_hammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973732306431535815, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
+      propertyPath: m_TagString
+      value: MySword
       objectReference: {fileID: 0}
     - target: {fileID: 1973732306432030439, guid: 5c9fc887671398740bc8ddf958913330, type: 3}
       propertyPath: m_RootOrder
