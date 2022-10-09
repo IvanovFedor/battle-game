@@ -9723,7 +9723,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1398653584
 PrefabInstance:
@@ -16038,6 +16038,7 @@ GameObject:
   - component: {fileID: 7147776092745487705}
   - component: {fileID: 7147776092745487704}
   - component: {fileID: 7147776092745487706}
+  - component: {fileID: 7147776092745487707}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -16420,12 +16421,9 @@ MonoBehaviour:
   - {fileID: 1156615172}
   - {fileID: 553869150}
   - {fileID: 901634149}
-  pointSpawn1: {fileID: 1061606268}
-  pointSpawn2: {fileID: 1156615172}
-  pointSpawn3: {fileID: 553869150}
-  pointSpawn4: {fileID: 901634149}
   RandomPoint: 0
   RandomPoint2: 0
+  isCanUse: 1
 --- !u!114 &7147776092745487706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16444,6 +16442,21 @@ MonoBehaviour:
   - {fileID: 1684226575}
   - {fileID: 1543596511}
   - {fileID: 9067418999724851805}
+--- !u!114 &7147776092745487707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241657564807742069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742700ad543dfec48afaebc85c92db3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalSubscription: 1
+  localSubscription: 0
+  localRigidComponent: {fileID: 0}
 --- !u!1001 &7316361951029478337
 PrefabInstance:
   m_ObjectHideFlags: 0
