@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 88212156178687217}
   m_Layer: 0
   m_Name: Axe_v1
-  m_TagString: Untagged
+  m_TagString: MySword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5806,6 +5806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerBots: {fileID: 3473164497803409335, guid: fa65b35d04ed96a47862050d0ec5018c, type: 3}
   Posoh: {fileID: 7039781630439112693}
+  Effect: {fileID: 0}
   pointSpawn1: {fileID: 4167294299854513903}
   pointSpawn2: {fileID: 4681656779460653351}
   pointSpawn3: {fileID: 7832969471698263171}
@@ -15963,7 +15964,7 @@ GameObject:
   - component: {fileID: 5704050993980725099}
   m_Layer: 0
   m_Name: Mystic_hammer
-  m_TagString: Untagged
+  m_TagString: MySword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16257,6 +16258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerBots: {fileID: 0}
   Posoh: {fileID: 0}
+  Effect: {fileID: 0}
   pointSpawn1: {fileID: 0}
   pointSpawn2: {fileID: 0}
   pointSpawn3: {fileID: 0}
