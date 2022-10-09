@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class KillOfCoin : MonoBehaviour
 {
-    public GameObject Enemy1;
+    private bool GiveCoins = true;
 
 
-    private void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        if(Enemy1 == null)
+        if(other.gameObject.tag == "MySword" && GiveCoins)
         {
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + 25);
-            //тут место для заданий по убийствам
+            GiveCoins = false;
         }
     }
 }
