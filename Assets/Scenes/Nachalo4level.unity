@@ -9672,6 +9672,7 @@ MonoBehaviour:
   PlayerBots: {fileID: 3473164497803409335, guid: fa65b35d04ed96a47862050d0ec5018c, type: 3}
   Posoh: {fileID: 1684226575}
   Effect: {fileID: 552313976182974062, guid: 890c68c3a660ccd44a91e3c1093e2726, type: 3}
+<<<<<<< HEAD
   points:
   - {fileID: 1061606268}
   - {fileID: 1156615172}
@@ -9680,6 +9681,12 @@ MonoBehaviour:
   RandomPoint: 0
   RandomPoint2: 0
   isCanUse: 1
+=======
+  pointSpawn1: {fileID: 1061606268}
+  pointSpawn2: {fileID: 1156615172}
+  pointSpawn3: {fileID: 553869150}
+  pointSpawn4: {fileID: 901634149}
+>>>>>>> parent of fbf33ef (Можно выпускать бэтку)
 --- !u!114 &7147776092745487706
 MonoBehaviour:
   m_ObjectHideFlags: 0
