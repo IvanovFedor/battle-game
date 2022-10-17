@@ -28210,6 +28210,7 @@ MonoBehaviour:
     size: 0.1
     visible: 0
     sliceByBlade: 1
+    CoinsGive: 0
     bound:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
