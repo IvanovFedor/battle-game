@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1154,7 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &179341079
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2266,6 +2266,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -2361,6 +2362,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &453669060
 GameObject:
@@ -2679,6 +2681,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -2770,6 +2773,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &585837273
 GameObject:
@@ -3136,6 +3140,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590860343}
   m_CullTransparentMesh: 1
+--- !u!4 &591238677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2969130147741642429, guid: 521ac81517a88864bb9c9ab0e5baea92, type: 3}
+  m_PrefabInstance: {fileID: 813093482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &603443229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,6 +3347,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3370,6 +3380,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -3482,6 +3493,7 @@ PrefabInstance:
     - {fileID: 1932190185458258643, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
     - {fileID: 7429099396248734688, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
     - {fileID: 7429099396248734689, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &641125897 stripped
 GameObject:
@@ -3824,6 +3836,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 1810513162}
     m_Modifications:
     - target: {fileID: 2969130147741642429, guid: 521ac81517a88864bb9c9ab0e5baea92, type: 3}
@@ -3879,6 +3892,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 521ac81517a88864bb9c9ab0e5baea92, type: 3}
 --- !u!1 &822299081
 GameObject:
@@ -4765,6 +4779,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -4848,6 +4863,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &1033722280
 GameObject:
@@ -7260,6 +7276,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -7347,6 +7364,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1961386635501832036, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 591238677}
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &1508678449
 GameObject:
@@ -8312,6 +8333,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -11775,6 +11797,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -13347,6 +13370,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -16801,6 +16825,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -18752,6 +18777,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1959208069070625996, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
@@ -18843,6 +18869,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add6bf32f75cc14fa3017bf184dd7aa, type: 3}
 --- !u!1 &1898978441
 GameObject:
@@ -19711,7 +19738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1965466047
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20878,6 +20905,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 5905
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -24271,6 +24299,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -27213,6 +27242,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -30676,6 +30706,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -32288,6 +32319,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -35742,6 +35774,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
