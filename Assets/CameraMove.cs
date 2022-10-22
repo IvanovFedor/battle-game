@@ -9,6 +9,8 @@ public class CameraMove : MonoBehaviour
 
     public Transform TRPlayer;
     public int IntPlusKPos = 10;
+
+    public float IntPlusKPosZ = 2.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +18,10 @@ public class CameraMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
        
 
-        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.05f), Mathf.Lerp(transform.position.y, SpaceShip.transform.position.y + IntPlusKPos, 10f), Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z -2.5f, 0.05f));
+        transform.position = new Vector3(Mathf.Lerp(transform.position.x, SpaceShip.transform.position.x, 0.01f), Mathf.Lerp(transform.position.y, SpaceShip.transform.position.y + IntPlusKPos, 10f), Mathf.Lerp(transform.position.z, SpaceShip.transform.position.z - IntPlusKPosZ, 0.01f));
     }
 }
