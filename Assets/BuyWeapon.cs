@@ -29,6 +29,13 @@ public class BuyWeapon : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.F1))
+            PlayerPrefs.SetInt("IsBuyAxe", 1);
+        if(Input.GetKeyDown(KeyCode.F2))
+            PlayerPrefs.SetInt("IsBuyArm", 1);
+        if(Input.GetKeyDown(KeyCode.F3))
+            PlayerPrefs.SetInt("IsBuyHunter", 1);
+        
         if (PlayerPrefs.GetInt(IdWeaponBuy) == 1)
         {
             Item.SetActive(true);
