@@ -253,7 +253,7 @@ public class MenuManager : MonoBehaviour
 
     public void DiscordServer()
     {
-        Application.OpenURL("https://discord.gg/Hs69P9bH6w");
+        Application.OpenURL("https://discord.gg/a47pJ3fhTv");
     }
 
     public void YouTubeChanel() 
