@@ -135,12 +135,17 @@ public class EnemyAi : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            UpDown = true;
-            RotSword = Random.Range(-66, 66);
+            Invoke("attaking", Random.Range(0.2f, 0.6f));
+           
             alreadyAttacked = true;
 
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
+    }
+    private void attaking()
+    {
+        UpDown = true;
+        RotSword = Random.Range(-66, 66);
     }
     private void ResetAttack()
     {
